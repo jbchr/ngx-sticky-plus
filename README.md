@@ -1,4 +1,4 @@
-[https://img.shields.io/npm/v/ngx-sticky-plus](https://www.npmjs.com/package/ngx-sticky-plus)
+![npm](https://img.shields.io/npm/v/ngx-sticky-plus) ![NPM](https://img.shields.io/npm/l/ngx-sticky-plus)
 
 # ngx-sticky-plus
 
