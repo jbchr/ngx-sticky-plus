@@ -3,7 +3,7 @@ import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
-import { NgxStickyPlusModule } from 'ngx-sticky-plus';
+import { NgxStickyPlusModule } from '../../projects/ngx-sticky-plus/src/public-api';
 import { StickyHeaderComponent } from './sticky-header.component';
 import { StickyFooterComponent } from './sticky-footer.component';
 import { RouterModule } from '@angular/router';
