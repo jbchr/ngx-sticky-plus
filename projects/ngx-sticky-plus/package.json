@@ -1,7 +1,7 @@
 {
   "name": "ngx-sticky-plus",
   "license": "MIT",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "author": "Janek (https://github.com/jbchr)",
   "description": "Angular 2+ directive that adds enhancements to position: sticky elements such as events and CSS classes ",
   "keywords": [
@@ -23,5 +23,7 @@
   "dependencies": {
     "tslib": "^2.0.0"
   },
-  "homepage": "https://github.com/jbchr/ngx-sticky-plus"
+  "homepage": "https://github.com/jbchr/ngx-sticky-plus#readme",
+  "readme": "https://github.com/jbchr/ngx-sticky-plus.git#readme",
+  "readmeFilename": "README.md"
 }

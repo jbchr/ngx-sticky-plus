@@ -1,6 +1,6 @@
 {
   "name": "ngx-sticky-plus-app",
-  "version": "0.0.0",
+  "version": "0.0.3",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -8,7 +8,8 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "deploy": "ng build --prod --base-href='https://jbchr.github.io/ngx-sticky-plus/' ngx-sticky-plus-app && ngh --dir ./dist/ngx-sticky-plus-app"
+    "deploy": "ng build --prod --base-href='https://jbchr.github.io/ngx-sticky-plus/' ngx-sticky-plus-app && ngh --dir ./dist/ngx-sticky-plus-app",
+    "publish": "ng build ngx-sticky-plus --prod && cp ./README.md ./dist/ngx-sticky-plus && npm publish dist/ngx-sticky-plus"
   },
   "private": true,
   "dependencies": {

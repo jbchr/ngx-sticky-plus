@@ -1,3 +1,5 @@
+[https://img.shields.io/npm/v/ngx-sticky-plus](https://www.npmjs.com/package/ngx-sticky-plus)
+
 # ngx-sticky-plus
 
 An Angular 2+ directive that emits an event when an element that has `position: sticky` became sticky and optionally adds a CSS class. This enables developers to add special styling e.g a box-shadow when element becomes sticky. Described functionality is currently not supported natively by browsers.
