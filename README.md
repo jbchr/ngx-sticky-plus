@@ -4,6 +4,10 @@ An Angular 2+ directive that emits an event when an element that has `position: 
 
 [Demo](https://jbchr.github.io/ngx-sticky-plus/sticky-header)
 
+<p align="center">
+  <img src="./src/assets/demo.gif" alt="Demo" width="480"/>
+</p>
+
 ## Features
 
 - 🦈 Very performant (using IntersectionObserver instead of scroll event)

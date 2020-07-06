@@ -33,7 +33,7 @@ import { Component, OnInit } from '@angular/core';
       rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum
       dolor sit amet.
     </div>
-    <div class="sticky sticky-bottom" stickyPlus>Sticky Footer</div>
+    <div class="sticky-bottom" stickyPlus>Sticky Footer</div>
   </div>`,
 })
 export class StickyFooterComponent implements OnInit {

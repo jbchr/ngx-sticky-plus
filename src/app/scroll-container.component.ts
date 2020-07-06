@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
       class="container"
     >
       <div
-        class="sticky sticky-top"
+        class="sticky-top"
         style="top: 0"
         stickyPlus
         [scrollContainer]="scrollContainer"

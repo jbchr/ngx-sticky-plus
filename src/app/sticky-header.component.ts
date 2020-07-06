@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
       *ngFor="let dummy of ' '.repeat(20).split(''); let x = index"
       class="container"
     >
-      <div class="sticky sticky-top" stickyPlus>Sticky Header</div>
+      <div class="sticky-top" stickyPlus>Sticky Header</div>
       <div class="content">
         Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
         eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
