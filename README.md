@@ -1,4 +1,4 @@
-![npm](https://img.shields.io/npm/v/ngx-sticky-plus) ![NPM](https://img.shields.io/npm/l/ngx-sticky-plus)
+![npm](https://img.shields.io/npm/v/ngx-sticky-plus) ![license](https://img.shields.io/npm/l/ngx-sticky-plus) ![coverage](./src/assets/coverage-badge.svg)
 
 # ngx-sticky-plus
 

@@ -6,10 +6,17 @@
     "start": "ng serve",
     "build": "ng build",
     "test": "ng test",
+    "test:coverage": "ng test --watch=false --code-coverage",
     "lint": "ng lint",
     "e2e": "ng e2e",
+    "make-badges": "make-coverage-badge --report-path coverage/ngx-sticky-plus/coverage-summary.json --output-path src/assets/coverage-badge.svg",
     "deploy": "ng build --prod --base-href='https://jbchr.github.io/ngx-sticky-plus/' ngx-sticky-plus-app && ngh --dir ./dist/ngx-sticky-plus-app",
     "publish": "ng build ngx-sticky-plus --prod && cp ./README.md ./dist/ngx-sticky-plus && npm publish dist/ngx-sticky-plus"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run test:coverage && npm run make-badges && git add 'src/assets/coverage-badge.svg'"
+    }
   },
   "private": true,
   "dependencies": {
@@ -34,6 +41,7 @@
     "@types/jasminewd2": "~2.0.3",
     "@types/node": "^12.11.1",
     "codelyzer": "^6.0.0-next.1",
+    "husky": "^4.2.5",
     "jasmine-core": "~3.5.0",
     "jasmine-spec-reporter": "~5.0.0",
     "karma": "~5.0.0",
@@ -41,6 +49,7 @@
     "karma-coverage-istanbul-reporter": "~3.0.2",
     "karma-jasmine": "~3.3.0",
     "karma-jasmine-html-reporter": "^1.5.0",
+    "make-coverage-badge": "^1.2.0",
     "ng-packagr": "^10.0.0",
     "protractor": "~7.0.0",
     "ts-node": "~8.3.0",
