@@ -1,4 +1,4 @@
-import { OnInit, Inject, OnDestroy, AfterContentInit } from '@angular/core';
+import { OnInit, OnDestroy } from '@angular/core';
 import {
   Directive,
   Output,
@@ -7,14 +7,13 @@ import {
   Renderer2,
   Input,
 } from '@angular/core';
-import { Subject, BehaviorSubject } from 'rxjs';
+import { Subject } from 'rxjs';
 import { distinctUntilChanged } from 'rxjs/operators';
 import { setStyles } from './helpers';
 import {
   isPositionStickySupported,
   isIntersectionObserverSupported,
 } from './helpers';
-import { toPublicName } from '@angular/compiler/src/i18n/serializers/xmb';
 
 enum StickyEdge {
   TOP = 'top',

@@ -20,7 +20,7 @@ export const isPositionStickySupported = (win: Window): boolean => {
  * https://github.com/w3c/IntersectionObserver/issues/296#issuecomment-452230176
  */
 export const isIntersectionObserverSupported = (win: Window) =>
-  'IntersectionObserver' in window;
+  'IntersectionObserver' in win;
 
 /**
  * Sets multiple styles on an element using angular renderer.
